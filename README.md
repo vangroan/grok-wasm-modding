@@ -1,5 +1,5 @@
 
-Experiment to determine if [`warmer`](https://wasmer.io/) can be used for scripting and modding a game engine.
+Experiment to determine if [`wasmer`](https://wasmer.io/) can be used for scripting and modding a game engine.
 
 ## Lessons Learned
 
