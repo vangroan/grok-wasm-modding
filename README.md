@@ -9,3 +9,13 @@ Experiment to determine if [`wasmer`](https://wasmer.io/) can be used for script
   locking could interfere with compiler reorder optimisations and requires benchmarking to determine impact.
 - The `Store` and `Instance` can be dropped after getting a `Function` instance.
 - Calling a WASM function via `Function::call()` allocates several vectors to hold the arguments and results.
+
+## Mermaid Test
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
