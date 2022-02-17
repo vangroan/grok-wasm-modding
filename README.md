@@ -19,3 +19,13 @@ Experiment to determine if [`wasmer`](https://wasmer.io/) can be used for script
       B-->D;
       C-->D;
 ```
+
+```mermaid
+graph TD;
+objA((I am A))
+objA --- objB[I am B]
+objA --- objC[I am C]
+objC --- x[Sub Cx]
+objC --- y[Sub Cy]
+objA --- oAlone[I am Alone]
+```
